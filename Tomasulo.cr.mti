@@ -1,1 +1,18 @@
+C:/Users/Aluno/Desktop/Tomasulo/count.v {1 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/count.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 
+} {} {}} C:/Users/Aluno/Desktop/Tomasulo/UnidadeFuncional.v {1 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/UnidadeFuncional.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module UnidadeFuncional
+
+Top level modules:
+	UnidadeFuncional
+
+} {} {}} C:/Users/Aluno/Desktop/Tomasulo/regn.v {1 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/regn.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module regn
+
+Top level modules:
+	regn
+
+} {} {}}

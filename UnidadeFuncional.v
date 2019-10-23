@@ -10,8 +10,9 @@ begin
 	if(instructIn == 1)
 	begin
 		case(instruction[3:0])
-		3'b0000: dout <= reg1 + reg2;
-		3'b0001: dout <= reg1 - reg2;
+		4'b0000: dout <= reg1 + reg2;
+		4'b0001: dout <= reg1 - reg2;
+		//complete
 		endcase
 	end
 end
