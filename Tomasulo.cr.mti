@@ -1,18 +1,31 @@
-C:/Users/Aluno/Desktop/Tomasulo/count.v {1 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/count.v
+C:/Users/Aluno/Desktop/Tomasulo/count.v {0 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/count.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+** Error: (vlog-19) Failed to access library 'work' at "work".
 
-} {} {}} C:/Users/Aluno/Desktop/Tomasulo/UnidadeFuncional.v {1 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/UnidadeFuncional.v
+No such file or directory. (errno = ENOENT)
+
+} {3.0 4.0} {}} C:/Users/Aluno/Desktop/Tomasulo/UnidadeFuncional.v {0 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/UnidadeFuncional.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module UnidadeFuncional
+** Error: (vlog-19) Failed to access library 'work' at "work".
 
-Top level modules:
-	UnidadeFuncional
+No such file or directory. (errno = ENOENT)
 
-} {} {}} C:/Users/Aluno/Desktop/Tomasulo/regn.v {1 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/regn.v
+} {3.0 4.0} {}} C:/Users/Aluno/Desktop/Tomasulo/IQ.v {0 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/IQ.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module regn
+** Error: (vlog-19) Failed to access library 'work' at "work".
 
-Top level modules:
-	regn
+No such file or directory. (errno = ENOENT)
 
-} {} {}}
+} {3.0 4.0} {}} C:/Users/Aluno/Desktop/Tomasulo/RSadders.v {0 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/RSadders.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+** Error: (vlog-19) Failed to access library 'work' at "work".
+
+No such file or directory. (errno = ENOENT)
+
+} {3.0 4.0} {}} C:/Users/Aluno/Desktop/Tomasulo/regn.v {0 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/regn.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+** Error: (vlog-19) Failed to access library 'work' at "work".
+
+No such file or directory. (errno = ENOENT)
+
+} {3.0 4.0} {}}
