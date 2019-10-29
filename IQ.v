@@ -3,7 +3,10 @@ module IQ(Clock, Reset, Run);
   * Tomsulo com instrucao de desvio e despache duplo das instrucoes
   * Documentacao da Instrucao
   *
-  * IMMEDIATE - Rx  - Ry  - OPCODE
+  * IMMEDIATE - Rx  - Ry  - Rz  - OPCODE
+  * 000       - 000 - 000 - 000 - 0000
+  *
+  * IMMEDIATE - Rx  - Ry  - OPCODE(LD or SD)
   * 000000    - 000 - 000 - 0000
   *
   * INST  - OPCODE
@@ -26,13 +29,16 @@ module IQ(Clock, Reset, Run);
   
   initial
 	begin //Fila de Instrucoes
-		PC1[0]=16'b0000000000100001;
-		PC1[1]=16'b0000000000000001;
-		PC1[2]=16'b0000000001000001;
-		PC1[3]=16'b0000000000001010;
-		PC1[4]=16'b0000001111010000;
-		PC1[5]=16'b0000000101000011;
-		PC1[6]=16'b0000001011111010;
+		PC1[0]=16'b0000110010100000; //ADD R3, R1, R2
+		PC1[1]=16'b0001010110010001; //SUB R5, R3, R1
+		PC1[2]=16'b0000010110100000; //ADD R1, R3, R2
+		PC1[3]=16'b0000011000100001; //SUB R1, R4, R2
+		PC1[4]=16'b0000000011000011; //LD R1, 0 (R4)
+		PC1[5]=16'b0000010011000001; //SUB R1, R1, R4
+		PC1[6]=16'b0000000011000100; //SD R1, 0 (R4)
+		PC1[7]=16'b0000000101000011; //LD R2, 0 (R4)
+		PC1[8]=16'b0000000010110011; //LD R1, 0 (R3)
+		PC1[9]=16'b0000100101010001; //SUB R2, R2, R5
 	end
 
 	

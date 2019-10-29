@@ -1,31 +1,36 @@
-C:/Users/Aluno/Desktop/Tomasulo/count.v {0 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/count.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-** Error: (vlog-19) Failed to access library 'work' at "work".
+{C:/Users/thiag/Documents/Engenharia de Computacao/4 Semestre/AOC II/LAOC/Tomasulo/RSadders.v} {1 {vlog -work work -stats=none {C:/Users/thiag/Documents/Engenharia de Computacao/4 Semestre/AOC II/LAOC/Tomasulo/RSadders.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module RSadders
 
-No such file or directory. (errno = ENOENT)
+Top level modules:
+	RSadders
 
-} {3.0 4.0} {}} C:/Users/Aluno/Desktop/Tomasulo/UnidadeFuncional.v {0 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/UnidadeFuncional.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-** Error: (vlog-19) Failed to access library 'work' at "work".
+} {} {}} {C:/Users/thiag/Documents/Engenharia de Computacao/4 Semestre/AOC II/LAOC/Tomasulo/regn.v} {1 {vlog -work work -stats=none {C:/Users/thiag/Documents/Engenharia de Computacao/4 Semestre/AOC II/LAOC/Tomasulo/regn.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module regn
 
-No such file or directory. (errno = ENOENT)
+Top level modules:
+	regn
 
-} {3.0 4.0} {}} C:/Users/Aluno/Desktop/Tomasulo/IQ.v {0 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/IQ.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-** Error: (vlog-19) Failed to access library 'work' at "work".
+} {} {}} {C:/Users/thiag/Documents/Engenharia de Computacao/4 Semestre/AOC II/LAOC/Tomasulo/UnidadeFuncional.v} {1 {vlog -work work -stats=none {C:/Users/thiag/Documents/Engenharia de Computacao/4 Semestre/AOC II/LAOC/Tomasulo/UnidadeFuncional.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module UnidadeFuncional
 
-No such file or directory. (errno = ENOENT)
+Top level modules:
+	UnidadeFuncional
 
-} {3.0 4.0} {}} C:/Users/Aluno/Desktop/Tomasulo/RSadders.v {0 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/RSadders.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-** Error: (vlog-19) Failed to access library 'work' at "work".
+} {} {}} {C:/Users/thiag/Documents/Engenharia de Computacao/4 Semestre/AOC II/LAOC/Tomasulo/count.v} {0 {vlog -work work -stats=none {C:/Users/thiag/Documents/Engenharia de Computacao/4 Semestre/AOC II/LAOC/Tomasulo/count.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+** Error: (vlib-35) Failed to create directory "work".
 
-No such file or directory. (errno = ENOENT)
+File exists. (errno = EEXIST)
+** Error: Verilog Compiler exiting
 
-} {3.0 4.0} {}} C:/Users/Aluno/Desktop/Tomasulo/regn.v {0 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/regn.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-** Error: (vlog-19) Failed to access library 'work' at "work".
+} {3.0 4.0 6.0 7.0} {}} {C:/Users/thiag/Documents/Engenharia de Computacao/4 Semestre/AOC II/LAOC/Tomasulo/IQ.v} {1 {vlog -work work -stats=none {C:/Users/thiag/Documents/Engenharia de Computacao/4 Semestre/AOC II/LAOC/Tomasulo/IQ.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module IQ
 
-No such file or directory. (errno = ENOENT)
+Top level modules:
+	IQ
 
-} {3.0 4.0} {}}
+} {} {}}
