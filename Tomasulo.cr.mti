@@ -1,31 +1,103 @@
-C:/Users/Aluno/Desktop/Tomasulo/count.v {0 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/count.v
+C:/Users/Aluno/Desktop/Tomasulo/RSload.v {1 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/RSload.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-** Error: (vlog-19) Failed to access library 'work' at "work".
+-- Compiling module RSload
 
-No such file or directory. (errno = ENOENT)
+Top level modules:
+	RSload
 
-} {3.0 4.0} {}} C:/Users/Aluno/Desktop/Tomasulo/UnidadeFuncional.v {0 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/UnidadeFuncional.v
+} {} {}} C:/Users/Aluno/Desktop/Tomasulo/RSadders.v {1 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/RSadders.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-** Error: (vlog-19) Failed to access library 'work' at "work".
+-- Compiling module RSadders
 
-No such file or directory. (errno = ENOENT)
+Top level modules:
+	RSadders
 
-} {3.0 4.0} {}} C:/Users/Aluno/Desktop/Tomasulo/IQ.v {0 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/IQ.v
+} {} {}} C:/Users/Aluno/Desktop/Tomasulo/RSstore.v {1 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/RSstore.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-** Error: (vlog-19) Failed to access library 'work' at "work".
+-- Compiling module RSstore
 
-No such file or directory. (errno = ENOENT)
+Top level modules:
+	RSstore
 
-} {3.0 4.0} {}} C:/Users/Aluno/Desktop/Tomasulo/RSadders.v {0 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/RSadders.v
+} {} {}} C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v {0 {vlog -work work -vopt -stats=none C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module RSadders
+** Error: C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v(17): (vlog-2110) Illegal reference to memory "Qk".
+** Error: C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v(17): (vlog-2110) Illegal reference to net array "#implicit-wire#1".
+** Error: C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v(17): (vlog-2110) Illegal reference to memory "Qk".
+** Error: C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v(17): (vlog-2110) Illegal reference to memory "Qj".
+** Error: C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v(17): (vlog-2110) Illegal reference to net array "#implicit-wire#0".
+** Error: C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v(17): (vlog-2110) Illegal reference to memory "Qj".
+** Error: C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v(17): (vlog-2110) Illegal reference to net array "#implicit-wire#0".
+** Error: C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v(17): (vlog-2110) Illegal reference to net array "#implicit-wire#1".
+** Warning: C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v(41): (vlog-2697) MSB of part-select into 'OP' is out of bounds.
+** Warning: C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v(50): (vlog-2697) MSB of part-select into 'OP' is out of bounds.
+** Warning: C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v(59): (vlog-2697) MSB of part-select into 'OP' is out of bounds.
+** Warning: C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v(68): (vlog-2697) MSB of part-select into 'OP' is out of bounds.
+** Warning: C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v(77): (vlog-2697) MSB of part-select into 'OP' is out of bounds.
+** Warning: C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v(86): (vlog-2697) MSB of part-select into 'OP' is out of bounds.
+** Warning: C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v(95): (vlog-2697) MSB of part-select into 'OP' is out of bounds.
+
+} {4.0 12.0} {}} C:/Users/Aluno/Desktop/Tomasulo/regn.v {1 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/regn.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-** Error: (vlog-19) Failed to access library 'work' at "work".
+-- Compiling module regn
 
-No such file or directory. (errno = ENOENT)
+Top level modules:
+	regn
 
-} {3.0 4.0} {}} C:/Users/Aluno/Desktop/Tomasulo/regn.v {0 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/regn.v
+} {} {}} C:/Users/xande/Documents/GitHub/Tomasulo/count.v {1 {vlog -work work -vopt -stats=none C:/Users/xande/Documents/GitHub/Tomasulo/count.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+
+} {} {}} C:/Users/xande/Documents/GitHub/Tomasulo/IQ.v {1 {vlog -work work -vopt -stats=none C:/Users/xande/Documents/GitHub/Tomasulo/IQ.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module IQ
+
+Top level modules:
+	IQ
+
+} {} {}} C:/Users/Aluno/Desktop/Tomasulo/FPregisters.v {1 {vlog -work work {C:\Users\Aluno\Desktop\Tomasulo\FPregisters.v}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-** Error: (vlog-19) Failed to access library 'work' at "work".
+-- Compiling module FPregisters
 
-No such file or directory. (errno = ENOENT)
+Top level modules:
+	FPregisters
 
-} {3.0 4.0} {}}
+} {} {}} C:/Users/xande/Documents/GitHub/Tomasulo/regn.v {1 {vlog -work work -vopt -stats=none C:/Users/xande/Documents/GitHub/Tomasulo/regn.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module regn
+
+Top level modules:
+	regn
+
+} {} {}} C:/Users/xande/Documents/GitHub/Tomasulo/verify.v {0 {vlog -work work -vopt -stats=none C:/Users/xande/Documents/GitHub/Tomasulo/verify.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module verify
+** Error: C:/Users/xande/Documents/GitHub/Tomasulo/verify.v(1): (vlog-2110) Illegal reference to net array "net1".
+** Error: C:/Users/xande/Documents/GitHub/Tomasulo/verify.v(1): (vlog-2110) Illegal reference to net array "net2".
+** Error: C:/Users/xande/Documents/GitHub/Tomasulo/verify.v(14): (vlog-2110) Illegal reference to net "verifyWire".
+
+} {4.0 7.0} {}} C:/Users/Aluno/Desktop/Tomasulo/UnidadeFuncional.v {1 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/UnidadeFuncional.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module UnidadeFuncional
+
+Top level modules:
+	UnidadeFuncional
+
+} {} {}} C:/Users/Aluno/Desktop/Tomasulo/count.v {1 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/count.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+
+} {} {}} C:/Users/Aluno/Desktop/Tomasulo/mux.v {1 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/mux.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mux
+
+Top level modules:
+	mux
+
+} {} {}} C:/Users/xande/Documents/GitHub/Tomasulo/UnidadeFuncional.v {1 {vlog -work work -vopt -stats=none C:/Users/xande/Documents/GitHub/Tomasulo/UnidadeFuncional.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module UnidadeFuncional
+
+Top level modules:
+	UnidadeFuncional
+
+} {} {}}
