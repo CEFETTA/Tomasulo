@@ -8,7 +8,9 @@ output reg done;
 output reg [15:0]dout;
 
 always @(posedge clock)
-begin	
+begin
+  done=0;	
+	
 	if(instructIn == 1)
 	begin
 		instructionCodeOut = instructionCodeIn;
@@ -19,6 +21,7 @@ begin
 		endcase
 		done = 1'b1;
 	end
+	
 end
 
 endmodule
