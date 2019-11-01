@@ -1,9 +1,23 @@
-C:/Users/Aluno/Desktop/Tomasulo/IQ.v {1 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/IQ.v
+C:/Users/Aluno/Desktop/Tomasulo/RSload.v {1 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/RSload.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module IQ
+-- Compiling module RSload
 
 Top level modules:
-	IQ
+	RSload
+
+} {} {}} C:/Users/Aluno/Desktop/Tomasulo/RSadders.v {1 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/RSadders.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module RSadders
+
+Top level modules:
+	RSadders
+
+} {} {}} C:/Users/Aluno/Desktop/Tomasulo/RSstore.v {1 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/RSstore.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module RSstore
+
+Top level modules:
+	RSstore
 
 } {} {}} C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v {0 {vlog -work work -vopt -stats=none C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v
 Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
@@ -62,7 +76,14 @@ Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
 ** Error: C:/Users/xande/Documents/GitHub/Tomasulo/verify.v(1): (vlog-2110) Illegal reference to net array "net2".
 ** Error: C:/Users/xande/Documents/GitHub/Tomasulo/verify.v(14): (vlog-2110) Illegal reference to net "verifyWire".
 
-} {4.0 7.0} {}} C:/Users/Aluno/Desktop/Tomasulo/count.v {1 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/count.v
+} {4.0 7.0} {}} C:/Users/Aluno/Desktop/Tomasulo/UnidadeFuncional.v {1 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/UnidadeFuncional.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module UnidadeFuncional
+
+Top level modules:
+	UnidadeFuncional
+
+} {} {}} C:/Users/Aluno/Desktop/Tomasulo/count.v {1 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/count.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 
 } {} {}} C:/Users/Aluno/Desktop/Tomasulo/mux.v {1 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/mux.v

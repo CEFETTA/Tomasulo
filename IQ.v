@@ -1,4 +1,4 @@
-module IQ(Clock, Reset, Run);
+module IQ(Clock, Reset, Run, enableOut, instructionOut);
   /*
   * Tomsulo com instrucao de desvio e despache duplo das instrucoes
   * Documentacao da Instrucao
@@ -18,6 +18,9 @@ module IQ(Clock, Reset, Run);
   reg Adderin, Adderin2, LDin, SDin, LDin2, SDin2;
   reg [15:0]PC1[63:0]; //Armazena a lista de isntrucoes
   reg [15:0]cr;
+  
+  output reg enableOut;
+  output reg[15:0]instructionOut;
   
   reg [15:0]mem[65536:0]; //Memoria
   wire [15:0] addr;
