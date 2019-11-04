@@ -26,19 +26,19 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	RSstore
 
-} {} {}} C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v {1 {vlog -work work -vopt -stats=none C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v
-Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
--- Compiling module RSadders
-
-Top level modules:
-	RSadders
-
 } {} {}} C:/Users/Aluno/Desktop/Tomasulo/regn.v {1 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/regn.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module regn
 
 Top level modules:
 	regn
+
+} {} {}} C:/Users/xande/Documents/GitHub/Tomasulo/IQ.v {1 {vlog -work work -vopt -stats=none C:/Users/xande/Documents/GitHub/Tomasulo/IQ.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module IQ
+
+Top level modules:
+	IQ
 
 } {} {}} C:/Users/xande/Documents/GitHub/Tomasulo/mux.v {1 {vlog -work work -vopt -stats=none C:/Users/xande/Documents/GitHub/Tomasulo/mux.v
 Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
@@ -84,6 +84,13 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 
 Top level modules:
 	mux
+
+} {} {}} C:/Users/xande/Documents/GitHub/Tomasulo/CDB.v {1 {vlog -work work -vopt -stats=none C:/Users/xande/Documents/GitHub/Tomasulo/CDB.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module CDB
+
+Top level modules:
+	CDB
 
 } {} {}} C:/Users/xande/Documents/GitHub/Tomasulo/UnidadeFuncional.v {1 {vlog -work work -vopt -stats=none C:/Users/xande/Documents/GitHub/Tomasulo/UnidadeFuncional.v
 Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016

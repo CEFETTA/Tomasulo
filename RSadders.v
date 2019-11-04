@@ -28,7 +28,7 @@ module RSadders(instruction, Clock, Adderin, R1, R2, R3, R4, R5, R6, R7, instOut
   wire disponivelUF;
   
   output disponivel;
-  assign disponivel = ~Busy[1] | ~Busy[2] | ~Busy[3] | ~Busy[4] | ~Busy[5] | ~Busy[6] | ~Busy[7];
+  assign disponivel = ~Busy[1] | ~Busy[2] | ~Busy[3] | ~Busy[4] | ~Busy[5] | ~Busy[6] | ~Busy[7]; //marca quando algum fica disponivel
 
   initial
   begin
@@ -99,7 +99,7 @@ module RSadders(instruction, Clock, Adderin, R1, R2, R3, R4, R5, R6, R7, instOut
 	  if(Qj[i]== 3'b000 && Qk[i]== 3'b000 && Busy[i]==1) begin //encontrar inst pronta
 		verifyWire = i; //marca a linha
 		instructionCodeIn = i;
-		i = -1;
+		i = -1; //break
 	  end
 
 	end

@@ -10,7 +10,6 @@ module RSadders(instruction, Clock, Adderin, R1, R2, R3, R4, R5, R6, R7, instOut
   reg [2:0]Qj[7:0]; //operando fonte, 0= já disponíve
   reg [2:0]Qk[7:0]; //operando fonte, 0= já disponível
   reg [15:0] OP [7:0]; //operacao em si
-  output reg [15:0]instCodeValue;
   output wire done; //descobre quando o resultado ficou pronto
   output wire [15:0]dout; //guarda o resultado da instrucao
 
@@ -29,7 +28,7 @@ module RSadders(instruction, Clock, Adderin, R1, R2, R3, R4, R5, R6, R7, instOut
   wire disponivelUF;
   
   output disponivel;
-  assign disponivel = ~Busy[1] | ~Busy[2] | ~Busy[3] | ~Busy[4] | ~Busy[5] | ~Busy[6] | ~Busy[7];
+  assign disponivel = ~Busy[1] | ~Busy[2] | ~Busy[3] | ~Busy[4] | ~Busy[5] | ~Busy[6] | ~Busy[7]; //marca quando tudo fica disponivel
 
   initial
   begin
@@ -100,7 +99,7 @@ module RSadders(instruction, Clock, Adderin, R1, R2, R3, R4, R5, R6, R7, instOut
 	  if(Qj[i]== 3'b000 && Qk[i]== 3'b000 && Busy[i]==1) begin //encontrar inst pronta
 		verifyWire = i; //marca a linha
 		instructionCodeIn = i;
-		i = -1;
+		i = -1; //break
 	  end
 
 	end
