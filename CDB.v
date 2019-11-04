@@ -41,7 +41,7 @@ module CDB (clock, Reset, Run);
   IQ queue(clock, Reset, Run, nextInstructionEnable, nextInstruction, done, disponivel); //fila de instrucoes
   
   RSadders RSa1(nextInstruction, clock, nextInstructionEnable, R1, R2, R3, R4, R5, R6, R7,
-		instOutEnable, currentInst, done, dataCDBout, disponivel, instOut); //falta wires
+		instOutEnable, currentInst, done, dataCDBout, disponivel, instOut); //estacao de reserva
 
 
   always @(posedge done)
