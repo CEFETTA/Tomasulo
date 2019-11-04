@@ -7,6 +7,16 @@ output reg[15:0]R5; //registrador 5
 output reg[15:0]R6; //registrador 6
 output reg[15:0]R7; //registrador 7
 
+initial begin
+  R1 = 1;
+  R2 = 2;
+  R3 = 0;
+  R4 = 4;
+  R5 = 0;
+  R6 = 0;
+  R7 = 0;
+end
+
 input clock;
 input [15:0]dataIn; //dado a ser escrito em um registrador
 input writeEnable; //habilita escrita

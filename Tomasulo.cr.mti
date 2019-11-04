@@ -12,6 +12,13 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	RSadders
 
+} {} {}} C:/Users/xande/Documents/GitHub/Tomasulo/FPregisters.v {1 {vlog -work work -vopt -stats=none C:/Users/xande/Documents/GitHub/Tomasulo/FPregisters.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module FPregisters
+
+Top level modules:
+	FPregisters
+
 } {} {}} C:/Users/Aluno/Desktop/Tomasulo/RSstore.v {1 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/RSstore.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module RSstore
@@ -19,34 +26,12 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	RSstore
 
-} {} {}} C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v {0 {vlog -work work -vopt -stats=none C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v
-Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
--- Compiling module RSadders
-** Error: C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v(17): (vlog-2110) Illegal reference to memory "Qk".
-** Error: C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v(17): (vlog-2110) Illegal reference to net array "#implicit-wire#1".
-** Error: C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v(17): (vlog-2110) Illegal reference to memory "Qk".
-** Error: C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v(17): (vlog-2110) Illegal reference to memory "Qj".
-** Error: C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v(17): (vlog-2110) Illegal reference to net array "#implicit-wire#0".
-** Error: C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v(17): (vlog-2110) Illegal reference to memory "Qj".
-** Error: C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v(17): (vlog-2110) Illegal reference to net array "#implicit-wire#0".
-** Error: C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v(17): (vlog-2110) Illegal reference to net array "#implicit-wire#1".
-** Warning: C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v(41): (vlog-2697) MSB of part-select into 'OP' is out of bounds.
-** Warning: C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v(50): (vlog-2697) MSB of part-select into 'OP' is out of bounds.
-** Warning: C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v(59): (vlog-2697) MSB of part-select into 'OP' is out of bounds.
-** Warning: C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v(68): (vlog-2697) MSB of part-select into 'OP' is out of bounds.
-** Warning: C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v(77): (vlog-2697) MSB of part-select into 'OP' is out of bounds.
-** Warning: C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v(86): (vlog-2697) MSB of part-select into 'OP' is out of bounds.
-** Warning: C:/Users/xande/Documents/GitHub/Tomasulo/RSadders.v(95): (vlog-2697) MSB of part-select into 'OP' is out of bounds.
-
-} {4.0 12.0} {}} C:/Users/Aluno/Desktop/Tomasulo/regn.v {1 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/regn.v
+} {} {}} C:/Users/Aluno/Desktop/Tomasulo/regn.v {1 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/regn.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module regn
 
 Top level modules:
 	regn
-
-} {} {}} C:/Users/xande/Documents/GitHub/Tomasulo/count.v {1 {vlog -work work -vopt -stats=none C:/Users/xande/Documents/GitHub/Tomasulo/count.v
-Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
 
 } {} {}} C:/Users/xande/Documents/GitHub/Tomasulo/IQ.v {1 {vlog -work work -vopt -stats=none C:/Users/xande/Documents/GitHub/Tomasulo/IQ.v
 Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
@@ -54,6 +39,13 @@ Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
 
 Top level modules:
 	IQ
+
+} {} {}} C:/Users/xande/Documents/GitHub/Tomasulo/mux.v {1 {vlog -work work -vopt -stats=none C:/Users/xande/Documents/GitHub/Tomasulo/mux.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module mux
+
+Top level modules:
+	mux
 
 } {} {}} C:/Users/Aluno/Desktop/Tomasulo/FPregisters.v {1 {vlog -work work {C:\Users\Aluno\Desktop\Tomasulo\FPregisters.v}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -76,15 +68,15 @@ Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
 ** Error: C:/Users/xande/Documents/GitHub/Tomasulo/verify.v(1): (vlog-2110) Illegal reference to net array "net2".
 ** Error: C:/Users/xande/Documents/GitHub/Tomasulo/verify.v(14): (vlog-2110) Illegal reference to net "verifyWire".
 
-} {4.0 7.0} {}} C:/Users/Aluno/Desktop/Tomasulo/UnidadeFuncional.v {1 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/UnidadeFuncional.v
+} {4.0 7.0} {}} C:/Users/Aluno/Desktop/Tomasulo/count.v {1 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/count.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+
+} {} {}} C:/Users/Aluno/Desktop/Tomasulo/UnidadeFuncional.v {1 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/UnidadeFuncional.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module UnidadeFuncional
 
 Top level modules:
 	UnidadeFuncional
-
-} {} {}} C:/Users/Aluno/Desktop/Tomasulo/count.v {1 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/count.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 
 } {} {}} C:/Users/Aluno/Desktop/Tomasulo/mux.v {1 {vlog -work work C:/Users/Aluno/Desktop/Tomasulo/mux.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -92,6 +84,13 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 
 Top level modules:
 	mux
+
+} {} {}} C:/Users/xande/Documents/GitHub/Tomasulo/CDB.v {1 {vlog -work work -vopt -stats=none C:/Users/xande/Documents/GitHub/Tomasulo/CDB.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module CDB
+
+Top level modules:
+	CDB
 
 } {} {}} C:/Users/xande/Documents/GitHub/Tomasulo/UnidadeFuncional.v {1 {vlog -work work -vopt -stats=none C:/Users/xande/Documents/GitHub/Tomasulo/UnidadeFuncional.v
 Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
